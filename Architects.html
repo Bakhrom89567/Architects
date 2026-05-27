@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Br Architects</title>
+	<style>
+
+		*{
+			box-sizing: border-box;
+		}
+			html {
+		    box-sizing: border-box
+		}
+
+	 body {
+	    font-family: Verdana, sans-serif;
+	    font-size: 15px;
+	    line-height: 1.5;
+	}
+
+			body {
+			    margin: 0;
+			}
+
+		/*<!-- Navbar -->*/
+		.w3-top{
+			top:0;
+		}
+		.w3-top{
+			position: fixed;
+			width: 100%;
+			z-index: 1;
+		}
+
+
+		.w3-white, .w3-hover-white:hover {
+			color: #000 !important;
+			background-color: #fff !important;
+			}
+			.w3-padding {
+		    padding: 8px 16px !important;
+		}
+
+
+		.w3-card, .w3-card-2 {
+		    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+		}
+		.w3-wide {
+		    letter-spacing: 4px;
+		}
+
+		.w3-bar{
+			display: flex;
+			justify-content: space-between;
+		}
+		.w3-right{
+			display: flex;
+			flex-direction: row;
+		}
+		.w3-bar-item{
+			padding: 8px 16px;
+			border:none;
+			outline: 0;
+			   
+		}
+
+
+	.w3-button {
+		border: none;
+		display: inline-block;
+		padding: 8px 16px;
+		vertical-align: middle;
+		overflow: hidden;
+		text-decoration: none;
+		color: inherit;
+		background-color: inherit;
+		text-align: center;
+		cursor: pointer;
+		white-space: nowrap;
+		}
+
+.w3-button:hover {
+    color: #000 !important;
+    background-color: #ccc !important;
+}
+
+
+@media (max-width: 600px) {
+    .w3-hide-small {
+        display: none !important;
+    }
+}
+
+
+/*Header*/
+
+.w3-tooltip, .w3-display-container {
+    position: relative;
+}
+.w3-content {
+    max-width: 980px;
+}
+
+.w3-content, .w3-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+.w3-image {
+    max-width: 100%;
+    height: auto;
+}
+img {
+    vertical-align: middle;
+}
+img {
+    border-style: none;
+}
+img {
+      overflow-clip-margin: content-box;
+  overflow: clip;
+}
+
+/*Header letter*/
+
+.w3-text-white, .w3-hover-text-white:hover {
+    color: #fff !important;
+}
+
+.w3-xxlarge {
+    font-size: 36px !important;
+}
+
+.w3-margin-top {
+    margin-top: 16px !important;
+}
+
+.w3-center {
+    text-align: center !important;
+}
+.w3-display-middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%,-50%);
+}
+.w3-opacity-min {
+    opacity: 0.75;
+}
+
+.w3-black, .w3-hover-black:hover {
+    color: #fff !important;
+    background-color: #000 !important;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: 400;
+    margin: 10px 0;
+}
+.w3-text-light-grey, .w3-hover-text-light-grey:hover, .w3-text-light-gray, .w3-hover-text-light-gray:hover {
+    color: #f1f1f1 !important;
+}
+
+/*<!-- Project Section -->*/
+.w3-container{
+	padding: 0.01em 16px;
+}
+.w3-padding-32{
+	padding-top: 32px!important;
+	padding-bottom: 32px!important;
+}
+
+.w3-border-light-grey, .w3-hover-border-light-grey:hover, .w3-border-light-gray, .w3-hover-border-light-gray:hover {
+    border-color: #f1f1f1 !important;
+}
+.w3-padding-16 {
+    padding-top: 16px !important;
+    padding-bottom: 16px !important;
+}
+.w3-border-bottom {
+    border-bottom: 1px solid #ccc !important;
+}
+h3 {
+    font-size: 24px;
+}
+
+.w3-margin-bottom {
+    margin-bottom: 16px !important;
+}
+
+/*Page Content- picture Block*/
+
+
+
+.w3-row-padding>.w3-col {
+    padding: 0 8px;
+}
+
+.w3-row-padding {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 8px;
+}
+.w3-margin-bottom {
+    margin-bottom: 16px !important;
+}
+
+.w3-col {
+    padding: 0 8px;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+@media (min-width: 601px) and (max-width: 992px) {
+    .w3-col.m6 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+@media (min-width: 993px) {
+    .w3-col.l3 {
+        flex: 0 0 24.9999%;
+        max-width: 24.9999%;
+    }
+}
+.w3-display-container {
+    position: relative;
+}
+.w3-display-topleft {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.w3-padding {
+    padding: 8px 16px !important;
+}
+.w3-black, .w3-hover-black:hover {
+    color: #fff !important;
+    background-color: #000 !important;
+}
+
+
+.w3-border-light-grey, .w3-hover-border-light-grey:hover, .w3-border-light-gray, .w3-hover-border-light-gray:hover {
+    border-color: #f1f1f1 !important;
+}
+
+/*Button Contact*/
+
+.w3-greyscale, .w3-grayscale {
+    filter: grayscale(75%);
+}
+.w3-block {
+    display: block;
+    width: 100%;
+}
+
+.w3-light-grey, .w3-hover-light-grey:hover, .w3-light-gray, .w3-hover-light-gray:hover {
+    color: #000 !important;
+    background-color: #f1f1f1 !important;
+}
+
+.w3-btn, .w3-button {
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+}
+button, input, select, textarea, optgroup {
+    font: inherit;
+    margin: 0;
+}
+
+/*Contact inputs*/
+.w3-border {
+    border: 1px solid #ccc !important;
+}
+
+.w3-input {
+    padding: 8px;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+}
+.w3-section, .w3-code {
+    margin-top: 16px !important;
+    margin-bottom: 16px !important;
+}
+
+.w3-image {
+    max-width: 100%;
+    height: auto;
+}
+a {
+    color: inherit;
+}
+
+.w3-text-green, .w3-hover-text-green:hover {
+    color: #4CAF50 !important;
+}
+
+	</style>
+</head>
+<body>
+	<!-- Navbar (sit on top) -->
+	<div class="w3-top">
+		<div class="w3-bar w3-white w3-wide w3-padding w3-card">
+			<a href="#home" class="w3-bar-item w3-button">
+				<b>BR</b> Architects
+			</a>
+			<!-- Float links to the right. Hide them on small screens -->
+			<div class="w3-right w3-hide-small">
+				<a href="#projects" class="w3-bar-item w3-button">Projects</a>
+				<a href="#about" class="w3-bar-item w3-button">About</a>
+				<a href="#contacts" class="w3-bar-item w3-button">Contact</a>
+			</div>
+		</div>
+	</div>
+	<!-- Header -->
+	<header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
+  <img class="w3-image" src="img/architect.jpg" alt="Architecture" width="1500" height="800">
+  <div class="w3-display-middle w3-margin-top w3-center">
+    <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>BR</b></span> <span class="w3-hide-small w3-text-light-grey">Architects</span></h1>
+  </div>
+</header>
+<!-- Page content -->
+<div class="w3-content w3-padding" style="max-width: 1564px">
+<!-- Project Section -->
+	<div class="w3-container w3-padding-32" id="projects">
+	    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Projects</h3>
+	</div>
+	<div class="w3-row-padding">
+	<div class="w3-col l3 m6 w3-margin-bottom">
+	<div class="w3-display-container">
+		<div class="w3-display-topleft w3-black w3-padding">Summer House</div>
+		<img src="img/house5.jpg" alt="House" style="width: 100%">
+	</div>
+	</div>
+	<div class="w3-col l3 m6 w3-margin-bottom">
+	<div class="w3-display-container">
+	<div class="w3-display-topleft w3-black w3-padding">Brick House</div>
+	<img src="img/house2.jpg" alt="House" style="width:100%">
+	</div>
+	</div>
+	<div class="w3-col l3 m6 w3-margin-bottom">
+	<div class="w3-display-container">
+	<div class="w3-display-topleft w3-black w3-padding">Renovated</div>
+	<img src="img/house3.jpg" alt="House" style="width:100%">
+	</div>
+	</div>
+	<div class="w3-col l3 m6 w3-margin-bottom">
+	<div class="w3-display-container">
+	<div class="w3-display-topleft w3-black w3-padding">Barn House</div>
+	<img src="img/house4.jpg" alt="House" style="width:100%">
+	</div>
+	</div>
+	</div>
+	<div class="w3-row-padding">
+	    <div class="w3-col l3 m6 w3-margin-bottom">
+	      <div class="w3-display-container">
+	        <div class="w3-display-topleft w3-black w3-padding">Summer House</div>
+	        <img src="img/house2.jpg" alt="House" style="width:99%">
+	      </div>
+	    </div>
+	    <div class="w3-col l3 m6 w3-margin-bottom">
+	      <div class="w3-display-container">
+	        <div class="w3-display-topleft w3-black w3-padding">Brick House</div>
+	        <img src="img/house5.jpg" alt="House" style="width:99%">
+	      </div>
+	    </div>
+	    <div class="w3-col l3 m6 w3-margin-bottom">
+	      <div class="w3-display-container">
+	        <div class="w3-display-topleft w3-black w3-padding">Renovated</div>
+	        <img src="img/house4.jpg" alt="House" style="width:99%">
+	      </div>
+	    </div>
+	    <div class="w3-col l3 m6 w3-margin-bottom">
+	      <div class="w3-display-container">
+	        <div class="w3-display-topleft w3-black w3-padding">Barn House</div>
+	        <img src="img/house3.jpg" alt="House" style="width:99%">
+	      </div>
+	    </div>
+	</div>
+<!-- About Section -->
+   <div class="w3-container w3-padding-32" id="about">
+   	<h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">About</h3>
+   	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint
+      occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+      laboris nisi ut aliquip ex ea commodo consequat.
+    </p>
+   </div>
+   <div class="w3-row-padding w3-grayscale">
+	   	<div class="w3-col l3 m6 w3-margin-bottom">
+	      <img src="img/team2.jpg" alt="John" style="width:100%">
+	      <h3>John Doe</h3>
+	      <p class="w3-opacity">CEO &amp; Founder</p>
+	      <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+	      <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
+	    </div>
+	    <div class="w3-col l3 m6 w3-margin-bottom">
+	      <img src="img/team1.jpg" alt="Jane" style="width:100%">
+	      <h3>Jane Doe</h3>
+	      <p class="w3-opacity">Architect</p>
+	      <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+	      <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
+	    </div>
+	    <div class="w3-col l3 m6 w3-margin-bottom">
+	      <img src="img/team3.jpg" alt="Mike" style="width:100%">
+	      <h3>Mike Ross</h3>
+	      <p class="w3-opacity">Architect</p>
+	      <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+	      <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
+	    </div>
+	    <div class="w3-col l3 m6 w3-margin-bottom">
+	      <img src="img/team4.jpg" alt="Dan" style="width:100%">
+	      <h3>Dan Star</h3>
+	      <p class="w3-opacity">Architect</p>
+	      <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+	      <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
+	    </div>
+   </div>
+<!-- Contact Section -->
+	<div class="w3-container w3-padding-32" id="contact">
+		<h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Contact</h3>
+		<p>Lets get in touch and talk about your next project.</p>
+		<form action="/action_page.php" target="_blank">
+			<input type="text" class="w3-input w3-border" placeholder="Name" required name="Name" wfd-id="id0">
+			<input class="w3-input w3-section w3-border" type="text" placeholder="Email" required="" name="Email" wfd-id="id1">
+			<input class="w3-input w3-section w3-border" type="text" placeholder="Subject" required="" name="Subject" wfd-id="id2">
+			<input class="w3-input w3-section w3-border" type="text" placeholder="Comment" required="" name="Comment" wfd-id="id3">
+			<button class="w3-button w3-black w3-section" type="submit">
+			    <i class="fa fa-paper-plane"></i> SEND MESSAGE
+		    </button>
+		</form>
+	</div>
+	<!-- Image of location/map -->
+	<div class="w3-container">
+		<img src="img/map.jpg" class="w3-image" style="width:100%">
+	</div>
+</div>
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-16">
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
+
+<script>
+	let test = [1, 2, 3];
+console.log(test);
+</script>
+</body>
+</html>
